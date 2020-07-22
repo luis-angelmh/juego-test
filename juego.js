@@ -1,4 +1,4 @@
-document.addEventListener('keydown', function(evento){
+ document.addEventListener('keydown', function(evento){
   if(evento.keyCode == 32){
     console.log("salta");
     if(nivel.muerto == false)
